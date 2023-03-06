@@ -37,7 +37,7 @@ const generateElement = (fileType, fileURL) => {
     hElement.textContent = fileTitles[fileURL];
     const extraElement = getExtraElement(fileType, fileURL);
     const viewButtonElement = document.createElement('button');
-    viewButtonElement.textContent = 'Actions';
+    viewButtonElement.textContent = 'Voir';
     viewButtonElement.onclick = () => {
         window.open(fileURL);
     };
